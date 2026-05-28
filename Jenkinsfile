@@ -8,7 +8,8 @@ pipeline {
         COURSE = "Jenkins"
     }
     options{
-        timeout(time: 1, unit: 'SECONDS')
+        timeout(time: 10, unit: 'MINUTES')
+        disableConcurrentBuilds()
     }
     stages {
         stage('Build') {
@@ -55,6 +56,6 @@ pipeline {
         }
         aborted{
             echo 'I will say Hello again only if the build is aborted!'
-        }
+        } 
     }
 }
