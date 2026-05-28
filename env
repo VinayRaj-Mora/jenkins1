@@ -1,0 +1,68 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://3.238.66.112:8080/job/hello1/17/display/redirect?page=tests
+COURSE=Jenkins
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-dd3008b10f8528af24526a282e30032f9a67dca312f5438595bca4329c928895
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=5659cd19a4f09fa446bf276eb598589654cd35db
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://3.238.66.112:8080/job/hello1/17/display/redirect?page=changes
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/jenkins/workspace/hello1
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://3.238.66.112:8080/job/hello1/17/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://3.238.66.112:8080/job/hello1/
+BUILD_NUMBER=17
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=dcc1d810-8997-4fa6-afd4-12e8325b83f2
+BUILD_DISPLAY_NAME=#17
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://3.238.66.112:8080/
+JOB_BASE_NAME=hello1
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=hello1
+RUN_DISPLAY_URL=http://3.238.66.112:8080/job/hello1/17/display/redirect
+SSH_CONNECTION=172.31.1.117 38000 172.31.30.7 22
+JOB_DISPLAY_URL=http://3.238.66.112:8080/job/hello1/display/redirect
+WORKSPACE=/home/ec2-user/jenkins/workspace/hello1
+GIT_PREVIOUS_COMMIT=5659cd19a4f09fa446bf276eb598589654cd35db
+HUDSON_URL=http://3.238.66.112:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=Agent-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=4e2a8d4778336278
+GIT_URL=https://github.com/VinayRaj-Mora/jenkins1.git
+SHLVL=2
+BUILD_TAG=jenkins-hello1-17
+EXECUTOR_NUMBER=2
+HUDSON_COOKIE=faa4f047-e949-4fc4-9f65-7b39c17ac873
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=3
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=172.31.1.117 38000 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+GIT_COMMIT=bb44b111620e667bac99f0c0b26e693d49329ddb
+which_declare=declare -f
+NODE_LABELS=Agent-1
+STAGE_NAME=Build
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/jenkins/workspace/hello1@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://3.238.66.112:8080/job/hello1/17/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=17
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env
