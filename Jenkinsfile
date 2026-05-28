@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                    echo "Test"
+                    echo "Testdd"
                     """
                 }
             }
