@@ -68,13 +68,14 @@ pipeline {
             cleanWs()
         }
         success{
-            echo 'I willll saydd Hello again only if the build is successful!'
+            echo 'I will saydd Hello again only if the build is successful!'
         }
         failure{
-            echo 'I willllll say Hello again only if the build fails!'
+            echo 'I will say Hello again only if the build fails!'
         }
         aborted{
             echo 'I will say Hello again only if the build is aborted!'
         } 
     }
+ }
 }
